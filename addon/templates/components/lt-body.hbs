@@ -105,8 +105,7 @@
       {{#if onScrolledToBottom}}
         {{lt.infinity
           enterViewport=(action "enterViewport")
-          exitViewport=(action "exitViewport")
-          scrollableContent=(concat "#" tableId " .lt-scrollable")}}
+          exitViewport=(action "exitViewport")}}
       {{/if}}
 
       <div id={{concat tableId "_inline_foot"}} class="lt-inline lt-foot"></div>
